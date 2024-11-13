@@ -6,13 +6,13 @@
 #SBATCH --ntasks=1               # total number of tasks across all nodes
 #SBATCH --cpus-per-task=16        # cpu-cores per task (>1 if multi-threaded tasks)
 #SBATCH --mem-per-cpu=4G         # memory per cpu-core (4G is default)
-#SBATCH --time=03:59:59          # total run time limit (HH:MM:SS)
+#SBATCH --time=0:59:59          # total run time limit (HH:MM:SS)
 #SBATCH --constraint=cascade
 
 
-RHO=0.4984
-STEPS_EQ=20000
-STEPS_PROD=2000
+RHO=0.4975
+STEPS_EQ=200000
+STEPS_PROD=20000
 
 module purge
 module load intel/2024.0

@@ -75,7 +75,7 @@
 
 ### THERMODYNAMIC OUTPUT
 ## Dumping frequency (timesteps)
-  thermo 100
+  thermo 1000
 ## Output format
   thermo_style custom step pe etotal press pxx pyy pzz pxy pxz pyz
   thermo_modify format float %.16g
